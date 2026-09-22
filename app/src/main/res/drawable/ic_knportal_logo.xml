@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple placeholder logo: a blue circle with a white "K" -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <path
+        android:fillColor="#1A73E8"
+        android:pathData="M48,4 A44,44 0 1 1 47.9,4 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,24 L40,24 L40,44.5 L58,24 L68,24 L48.5,46 L69,72 L58.5,72 L43,52 L40,55.5 L40,72 L32,72 Z" />
+
+</vector>

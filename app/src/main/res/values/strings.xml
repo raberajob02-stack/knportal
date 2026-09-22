@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KNPortal</string>
+
+    <!-- Login screen -->
+    <string name="app_title">KNPortal</string>
+    <string name="app_subtitle">Login to your account</string>
+    <string name="hint_username">Enter username or email</string>
+    <string name="hint_password">Enter password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_account">Create an Account</string>
+    <string name="knportal_tag">knportal</string>
+    <string name="logo_content_description">KNPortal logo</string>
+
+    <!-- Validation / feedback messages -->
+    <string name="error_username_empty">Please enter your username or email</string>
+    <string name="error_password_empty">Please enter your password</string>
+    <string name="login_success">Login successful!</string>
+    <string name="forgot_password_message">Forgot password feature is not implemented in this demo.</string>
+    <string name="create_account_message">Create account feature is not implemented in this demo.</string>
+    <string name="knportal_click_message">This is a demo. Connect this to the real knportal website later.</string>
+
+    <!-- Home / dashboard screen -->
+    <string name="welcome_message">Welcome to KNPortal</string>
+    <string name="home_subtitle">Login successful! This is a demo dashboard screen.</string>
+    <string name="btn_logout">LOGOUT</string>
+</resources>

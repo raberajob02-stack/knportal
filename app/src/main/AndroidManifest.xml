@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        INTERNET permission is ONLY required for the OPTIONAL WebView / browser
+        feature that opens the real KNPortal website (see MainActivity.java and
+        the "Optional KNPortal Web URL" section of the write-up).
+        It is NOT required for the basic demo login, so it is commented out.
+        Uncomment this line if you enable the WebView option.
+    -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_knportal_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_knportal_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KNPortal">
+
+        <!-- Login screen: this is the screen that opens first when the app launches -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Dashboard screen shown after a "successful" demo login -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
