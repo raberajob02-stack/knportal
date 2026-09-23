@@ -1,27 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">KNPortal</string>
+    <string name="app_name">KNP Portal</string>
 
-    <!-- Login screen -->
-    <string name="app_title">KNPortal</string>
-    <string name="app_subtitle">Login to your account</string>
-    <string name="hint_username">Enter username or email</string>
+    <!-- ============================================================
+         SPLASH / WELCOME SCREEN (MainActivity / activity_main.xml)
+         ============================================================ -->
+    <string name="institution_name">KISII NATIONAL POLYTECHNIC</string>
+    <string name="app_title">KNP PORTAL</string>
+    <string name="splash_welcome_message">Welcome to KNP Portal</string>
+    <string name="btn_continue">CONTINUE</string>
+    <string name="logo_content_description">KNP Portal logo</string>
+
+    <!-- ============================================================
+         LOGIN SCREEN (LoginActivity / activity_login.xml)
+         ============================================================ -->
+    <string name="login_title">Student Login</string>
+    <string name="label_admission_number">Admission Number</string>
+    <string name="hint_admission_number">Enter Admission Number</string>
+    <string name="label_password">Password</string>
     <string name="hint_password">Enter password</string>
     <string name="btn_login">LOGIN</string>
+    <string name="error_admission_empty">Please enter Admission Number</string>
+    <string name="error_password_empty">Please enter Password</string>
+    <string name="login_success">Login successful!</string>
+
+    <!-- ============================================================
+         DASHBOARD SCREEN (DashboardActivity / activity_dashboard.xml)
+         ============================================================ -->
+    <string name="dashboard_title">KNP PORTAL</string>
+    <string name="dashboard_welcome">Welcome Student</string>
+    <string name="btn_view_courses">VIEW COURSES</string>
+    <string name="btn_view_notices">VIEW NOTICES</string>
+    <string name="btn_view_profile">VIEW PROFILE</string>
+
+    <!-- ============================================================
+         COURSES SCREEN (CoursesActivity / activity_courses.xml)
+         ============================================================ -->
+    <string name="courses_title">Courses</string>
+    <string name="courses_disclaimer">Demonstration course data for this practical assessment only — not an official, verified list of programs offered by the institution.</string>
+
+    <!-- ============================================================
+         PROFILE SCREEN (ProfileActivity / activity_profile.xml)
+         ============================================================ -->
+    <string name="profile_title">Student Profile</string>
+    <string name="profile_disclaimer">Demonstration student details for this practical assessment.</string>
+    <string name="label_student_name">Student Name:</string>
+    <string name="value_student_name">John Doe</string>
+    <string name="label_admission_number_field">Admission Number:</string>
+    <string name="value_admission_number">KNP/ICT/001/2026</string>
+    <string name="label_course">Course:</string>
+    <string name="value_course">Diploma in ICT</string>
+
+    <!-- ============================================================
+         NOTICES SCREEN (NoticesActivity / activity_notices.xml)
+         ============================================================ -->
+    <string name="notices_title">Notices</string>
+    <string name="notices_content">REGISTRATION\nSemester registration is currently open. Visit the Registrar\'s office with your admission letter and fee payment slip.\n\nEXAMINATIONS\nEnd-of-semester examinations begin in week 13. Ensure your fee balance is cleared to be allowed to sit exams.\n\nANNOUNCEMENTS\nAll students are reminded to update their contact details at the department office.\n\n(This is demonstration notice data for this practical assessment.)</string>
+
+    <!-- ============================================================
+         OLD DEMO SCREENS (HomeActivity / activity_home.xml)
+         Kept from the earlier KNPortal demo build - not part of the
+         current KNP Portal navigation flow, but left untouched so
+         that HomeActivity.java still compiles.
+         ============================================================ -->
     <string name="forgot_password">Forgot Password?</string>
     <string name="create_account">Create an Account</string>
     <string name="knportal_tag">knportal</string>
-    <string name="logo_content_description">KNPortal logo</string>
-
-    <!-- Validation / feedback messages -->
+    <string name="hint_username">Enter username or email</string>
+    <string name="app_subtitle">Login to your account</string>
     <string name="error_username_empty">Please enter your username or email</string>
-    <string name="error_password_empty">Please enter your password</string>
-    <string name="login_success">Login successful!</string>
     <string name="forgot_password_message">Forgot password feature is not implemented in this demo.</string>
     <string name="create_account_message">Create account feature is not implemented in this demo.</string>
     <string name="knportal_click_message">This is a demo. Connect this to the real knportal website later.</string>
-
-    <!-- Home / dashboard screen -->
     <string name="welcome_message">Welcome to KNPortal</string>
     <string name="home_subtitle">Login successful! This is a demo dashboard screen.</string>
     <string name="btn_logout">LOGOUT</string>

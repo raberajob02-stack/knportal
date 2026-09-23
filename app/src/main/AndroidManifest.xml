@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KNPortal">
 
-        <!-- Login screen: this is the screen that opens first when the app launches -->
+        <!-- Splash/Welcome screen: this is the screen that opens first when the app launches -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -28,7 +28,36 @@
             </intent-filter>
         </activity>
 
+        <!-- Login screen, opened when CONTINUE is tapped on the splash screen -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
         <!-- Dashboard screen shown after a "successful" demo login -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+
+        <!-- Courses screen, opened from the Dashboard -->
+        <activity
+            android:name=".CoursesActivity"
+            android:exported="false" />
+
+        <!-- Notices screen, opened from the Dashboard -->
+        <activity
+            android:name=".NoticesActivity"
+            android:exported="false" />
+
+        <!-- Profile screen, opened from the Dashboard -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <!--
+            HomeActivity: leftover from an earlier demo build, kept as-is
+            and still declared here so it continues to compile, but it is
+            no longer part of the KNP Portal navigation flow above.
+        -->
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
